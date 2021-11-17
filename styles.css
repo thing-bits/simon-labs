@@ -1,0 +1,72 @@
+#button-container {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+button {
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 0 -3px;
+    cursor: pointer;
+}
+
+#green {
+    border-top-left-radius: 100%;
+    background-color: rgba(35, 200, 82, 0.4);
+}
+
+#green:hover, #green.active {
+    border-top-left-radius: 100%;
+    background-color: rgba(35, 200, 82, 1);
+}
+
+#red {
+    border-top-right-radius: 100%;
+    background-color: rgba(254, 35, 34, 0.4);
+}
+
+#red:hover, #red.active {
+    border-top-right-radius: 100%;
+    background-color: rgba(254, 35, 34, 1);
+}
+
+#yellow {
+    border-bottom-left-radius: 100%;
+    background-color: rgba(254, 194, 16, 0.4);
+}
+
+#yellow:hover, #yellow.active {
+    border-bottom-left-radius: 100%;
+    background-color: rgba(243, 194, 16, 1);
+}
+
+#blue {
+    border-bottom-right-radius: 100%;
+    background-color: rgba(0, 103, 208, 0.4);
+}
+
+#blue:hover, #blue.active {
+    border-bottom-right-radius: 100%;
+    background-color: rgba(0, 103, 208, 1);
+}
+
+#counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+
+}
